@@ -85,9 +85,4 @@ def add_nodes(G, dir_path):
             keywords_dict= extract_keywords(file_path)
             if keywords_dict:
                 for keyword in keywords_dict:
-                    G.add_edge(file, keyword, weight=keywords_dict[keyword]) # weight
-
-# G = build_graph(KEYWORDS)
-# add_nodes(G, './ase')
-# draw_graph(G)
-# print(extract_keywords('./data/id2sourcecode/74.java'))
+                    G.add_edge(file, keyword, weight=keywords_dict[keyword]) # weight is the frequency of the keyword

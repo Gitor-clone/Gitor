@@ -4,7 +4,7 @@ We propose Gitor to capture the underlying connections (\ie global information) 
 
 This repository contains the source code of Gitor, which can be used to reproduce our results.
 
-extract.py: Used to extract global information (Keywords) from code samples.
-side_info.py: Used to extract side information from code samples.
-train.py: Used for node embedding.
-detect.py: Used for code clone detection.
+extract.py: Used to extract global information (Keywords) from code samples.\
+side_info.py: Used to extract side information from code samples.\
+train.py: Used for node embedding.\
+detect.py: Used for code clone detection.\

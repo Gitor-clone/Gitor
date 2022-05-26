@@ -7,4 +7,4 @@ This repository contains the source code of Gitor, which can be used to reproduc
 extract.py: Used to extract global information (Keywords) from code samples.\
 side_info.py: Used to extract side information from code samples.\
 train.py: Used for node embedding.\
-detect.py: Used for code clone detection.\
+detect.py: Used for code clone detection.

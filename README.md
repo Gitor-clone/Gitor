@@ -8,5 +8,3 @@ extract.py: Used to extract global information (Keywords) from code samples.\
 side_info.py: Used to extract side information from code samples.\
 train.py: Used for node embedding.\
 detect.py: Used for code clone detection.
-
-The source code and dataset of Gitor will be published here after the paper is accepted.
